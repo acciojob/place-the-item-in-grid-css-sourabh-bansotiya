@@ -10,8 +10,8 @@ body {
 
 .holder {
   display: grid;
-  grid-template-columns: 100px 100px repeat(2, 1fr); /* Two equal columns */
-  grid-template-rows: 100px 100px repeat(2, 1fr); /* Two equal rows */
+  grid-template-columns: 100px 100px ; /* Two equal columns */
+  grid-template-rows: 100px 100px; /* Two equal rows */
   grid-gap: 5px; /* Adjust the gap between grid items as needed */
   width: 200px; /* Total size of the grid */
 }
